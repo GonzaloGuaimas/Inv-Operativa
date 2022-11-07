@@ -42,7 +42,4 @@ def main():
                 print("%7d\t" % (distance_matrix[i][j]), end=' ')
             if j == q_nodes-1:
                 print()
-    print('\n')
-    # print(distance_matrix)
-    distance_matrix.view()
 main()
